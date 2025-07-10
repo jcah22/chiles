@@ -3,6 +3,7 @@
 .carousel{
 	height: 600px;
 	perspective: 200px;
+	margin-top: 50px;
 }
 .carousel .carousel-item{
 	width: 640px;
@@ -23,8 +24,12 @@
 	background-position: center center;
 }
 
+/*
 
 .container {
 	padding: 2px 16px;
 }
+
+
+ */
 

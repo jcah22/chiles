@@ -18,8 +18,14 @@ nav .logo{
     font-size: 10px;
     text-transform: uppercase;
     color: #fff;
+    transition: 2s;
 
 
+}
+
+nav .logo:hover{
+    transform: scale(1.3);
+    transition: 2s;
 }
 
 nav ul{
@@ -47,11 +53,4 @@ nav ul li a:hover{
 
 }
 
-img{
-    transition: 2s;
-}
 
-img:hover{
-    transform: scale(1.3);
-    transition: 2s;
-}

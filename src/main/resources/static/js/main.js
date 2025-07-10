@@ -11,6 +11,11 @@ document.addEventListener('DOMContentLoaded',()=> {
     
 
     });
+    autoplay();
+    function autoplay(){
+        $('.carousel').carousel('next');
+        setTimeout(autoplay,3000);
+    }
    
 });
 

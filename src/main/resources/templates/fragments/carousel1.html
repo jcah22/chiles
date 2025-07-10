@@ -1,0 +1,74 @@
+
+	<section th:fragment="carousel1">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<link rel="stylesheet" href="/css/carousel1.css">
+	<div class="carousel " >
+	<div class="carousel-item">
+		<div class="card1">
+			<div class="img-area" style="background-image: url(/img/jochos1.jpg);"></div>
+			<div class="container">
+
+			</div>
+		</div>
+	</div>
+	<div class="carousel-item">
+		<div class="card1">
+			<div class="img-area" style="background-image: url(/img/esquites.jpg);"></div>
+			<div class="container">
+
+			</div>
+		</div>
+	</div>
+	<div class="carousel-item">
+		<div class="card1">
+			<div class="img-area" style="background-image: url(/img/pizza1.jpeg);"></div>
+			<div class="container">
+
+			</div>
+		</div>
+	</div>
+		<div class="carousel-item">
+			<div class="card1">
+				<div class="img-area" style="background-image: url(/img/jochos1.jpg);"></div>
+				<div class="container">
+
+				</div>
+			</div>
+		</div>
+		<div class="carousel-item">
+			<div class="card1">
+				<div class="img-area" style="background-image: url(/img/esquites.jpg);"></div>
+				<div class="container">
+
+				</div>
+			</div>
+		</div>
+		<div class="carousel-item">
+			<div class="card1">
+				<div class="img-area" style="background-image: url(/img/pizza1.jpeg);"></div>
+				<div class="container">
+
+				</div>
+			</div>
+		</div>
+</div>
+
+<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script>
+	$(document).ready(function(){
+		$('.carousel').carousel({
+			padding: 200
+		});
+		autoplay();
+		function autoplay() {
+			$('.carousel').carousel('next');
+			setTimeout(autoplay, 4000);
+		}
+	});
+</script>
+
+	</section>
+
